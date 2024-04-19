@@ -5,7 +5,7 @@ const {
     createNewAnimal,
     validateAnimal,
 } = require("../lib/animals.js");
-const { start } = require("repl");
+const { animals } = require("../data/animals");
 
 jest.mock('fs');
 
